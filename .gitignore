@@ -1,1 +1,65 @@
-TASKS.md
+# Upstream Buildroot source and generated files
+/buildroot/
+/output/
+/dl/
+/.build/
+*.config.old
+
+# Generated firmware and disk images
+/artifacts/
+*.img
+*.iso
+*.qcow2
+*.ext2
+*.ext3
+*.ext4
+*.squashfs
+*.cpio
+
+# Kernel module build products
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.symvers
+*.order
+.*.cmd
+Module.symvers
+modules.order
+
+# C/C++ build products
+/build/
+bin/
+obj/
+*.a
+*.so
+*.d
+compile_commands.json
+
+# Logs and runtime files
+*.log
+*.pid
+*.socket
+core
+core.*
+
+# Local configuration and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+
+/TASKS.md
