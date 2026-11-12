@@ -61,5 +61,8 @@ core.*
 .DS_Store
 Thumbs.db
 
+# Downloaded Buildroot releases
+/buildroot-*.tar.*
+/buildroot-*/
 
 /TASKS.md
